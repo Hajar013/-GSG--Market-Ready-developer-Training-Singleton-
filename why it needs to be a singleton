@@ -1,0 +1,2 @@
+To ensure a single, globally accessible instance for consistent logging throughout the application==> avoids the overhead of creating multiple logger instances.
+Note: we can use synchronized to make it thread-safe.
